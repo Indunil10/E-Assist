@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<title>Sky Net</title>
+
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jsnow.js"></script>
+
+<style type="text/css">
+
+
+h1 {color:#fff;}
+
+</style>
+<script type="text/javascript">
+$(function() {
+$().jSnow();
+});
+</script>
+
+
+
+<style>
+      body {
+    background-color: lightblue;
+    background-image: url("Xm8r0f.jpg");
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+ div {
+    width: 300px;
+    margin: auto;
+    font-style: oblique;
+    text-decoration-color: red;
+   
+}
+/* input decoration*/
+input[type=text] , input[type=password]
+{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    
+    background-position: 2px 2  px; 
+    background-repeat: no-repeat;
+    padding:  4px 15px 4px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+input[type=password]:focus {
+    width: 100%;
+}
+/*button decoraation*/
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #25ffe9;
+    border: none;
+    color: #ff5825;
+    padding: 6px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    </style>
+	</head>
+	<body>
+		<h1>Add Comment to Chat</h1>
+	<div>
+  	<form method="post" action="insert.php">
+  
+
+    <tr>
+      <td align="right"><font size="6">Lecture no :</font></td>
+      <td align="left"><input type="text" name="uname" /></td>
+    </tr>
+     <tr>
+      <td align="right"><font size="6">lecture code:</font></td>
+      <td align="left"><input type="password" name="uname" /></td>
+    </tr>
+    
+
+    <tr>
+      <td align="right"><font size="6">Ask question or reply:</font></td>
+      <td align="left"><textarea rows="4" cols="50"></textarea></td>
+    </tr>
+	
+    
+  	
+	
+</form>
+
+  <table>
+	<tr>
+	  <td align="right"></td>
+      <td align="left"> <a href="DynmicJSNP.html"> <input  type='button' onclick="DynmicJSNP.html" value='Enter chat'> </a> </td>
+
+      <td align="right"></td>
+      <td align="left"> <a href="registationform.html"> <input  type='button' onclick="registationform.html" value='New User'> </a> </td>
+
+    </tr>
+  </table>
+  </div>
+	</body>
+</html>
